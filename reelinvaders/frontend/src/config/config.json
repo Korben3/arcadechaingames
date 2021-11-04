@@ -1,0 +1,7 @@
+{
+  "NODE": "ws://localhost:8080/ws",
+  "SPINCOST": 2,
+  "MINREQBALANCE": 0.05,
+  "FUNDPASSPHRASE": "road vapor board rural detail forward castle together power swamp puppy dish",
+  "FUNDAMOUNT": "25"
+}

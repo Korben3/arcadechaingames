@@ -1,0 +1,55 @@
+.reels {
+  width: 600px;
+  display: inline-flex;
+  margin-top: 20px;
+}
+
+.reelInvaders {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.slotButton {
+  display: inline-block;
+  width: 200px;
+  height: 100px;
+  background-color: #b32a31;
+  color: #ffe9d2;
+  margin: 10px;
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  border-radius: 10px;
+  border-color: #f7afb2;
+  border-width: 3px;
+  border-style: solid;
+  text-shadow: 1px 1px 2px #000000;
+  text-align: center;
+  cursor: pointer;
+}
+.slotButton:hover {
+  background-color: #db030c;
+}
+.slotButtonText {
+  vertical-align: middle;
+}
+.slotButtonDisabled {
+  cursor: wait;
+}
+
+.slotDisplay {
+  display: inline-block;
+  font-family: "Share Tech Mono", monospace;
+  font-size: 45px;
+  padding-right: 5px;
+  margin: 10px;
+  text-align: end;
+  color: #c3232c;
+  background-color: #2a0a0a;
+  border-radius: 10px;
+  border-color: #440c0e;
+  border-width: 2px;
+  border-style: solid;
+  text-shadow: 0px 0px 1px #e59c9c;
+}

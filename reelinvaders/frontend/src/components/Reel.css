@@ -1,0 +1,56 @@
+.symbolsContainer {
+  width: 200px;
+  height: 600px;
+  position: absolute;
+}
+
+.reel1spin {
+  animation-name: rollReel;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+}
+.reel2spin {
+  animation-name: rollReel;
+  animation-duration: 2.3s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+}
+.reel3spin {
+  animation-name: rollReel;
+  animation-duration: 2.8s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+}
+
+.reelEdge {
+  background-image: url("../assets/reelShadowEdges.png");
+  width: 200px;
+  height: 600px;
+  overflow: hidden;
+  position: absolute;
+}
+
+.reel {
+  margin: auto;
+  width: 200px;
+  height: 600px;
+  position: relative;
+  overflow: hidden;
+}
+
+.reelStart {
+  transform: translate(0px, -0px);
+}
+
+@keyframes rollReel {
+  0% {
+    transform: translate(0px, -1800px);
+  }
+  95% {
+    transform: translate(0px, 15px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}

@@ -1,0 +1,15 @@
+.footer {
+  width: 100%;
+  height: 28px;
+  position: absolute;
+  bottom: 0px;
+  background-color: #080b32;
+  text-align: right;
+  color: white;
+}
+
+.footerText {
+  padding: 3px;
+  font-size: 0.8rem;
+  color: gray;
+}

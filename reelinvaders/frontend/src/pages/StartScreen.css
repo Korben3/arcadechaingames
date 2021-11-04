@@ -1,0 +1,84 @@
+input {
+  font-size: 16px;
+  height: 30px;
+  width: 400px;
+  margin-top: 27px;
+  border: 2px solid #1324d0;
+  border-radius: 4px;
+  background-color: #080b32;
+  color: white;
+  margin-right: 10px;
+}
+
+.infoText {
+  font-size: 1.4em;
+  color: white;
+  margin: 25px;
+}
+
+.infoTextAccount {
+  font-size: 1.4em;
+  color: grey;
+  margin: 10px;
+}
+
+.loginContainer {
+  display: inline-flex;
+}
+
+.gameSelect {
+  padding-top: 50px;
+  margin: auto;
+  width: 90%;
+  display: flex;
+}
+
+.title {
+  background-image: url("../assets/arcadechaingames.png");
+  width: 800px;
+  height: 73px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.buttonLogin {
+  background-image: url("../assets/buttonLogin.png");
+  width: 250px;
+  height: 80px;
+  margin: auto;
+  cursor: pointer;
+}
+.buttonLoginDisabled {
+  cursor: wait;
+}
+
+.buttonNewAccount {
+  background-image: url("../assets/buttonNewAccount.png");
+  width: 584px;
+  height: 80px;
+  margin: auto;
+  cursor: pointer;
+}
+
+.game_reelinvaders {
+  background-image: url("../assets/gameSelect.png");
+  width: 396px;
+  height: 500px;
+  margin: auto;
+}
+.game_center {
+  z-index: 2;
+}
+.game_greyLeft {
+  opacity: 0.9;
+  filter: grayscale(100%) blur(2px);
+  transform: translate(110px, 10px) scale(0.85);
+}
+.game_greyRight {
+  opacity: 0.9;
+  filter: grayscale(100%) blur(2px);
+  transform: translate(-110px, 10px) scale(0.85);
+}
+.game_clickable {
+  cursor: pointer;
+}
